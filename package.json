@@ -1,0 +1,12 @@
+{
+  "name": "review-kit",
+  "version": "0.1.0",
+  "description": "First-pass toolkit for reviewing Next.js + Supabase pull requests: diff scanner, RLS audit SQL, Claude Code command, review template.",
+  "type": "module",
+  "bin": { "review-scan": "./scan.mjs" },
+  "scripts": {
+    "test": "node --test",
+    "scan": "node scan.mjs"
+  },
+  "license": "MIT"
+}
